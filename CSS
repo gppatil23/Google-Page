@@ -1,0 +1,146 @@
+*{
+    color: azure;
+    max-width: 100%;
+    max-height: 100%;
+}
+body{
+    background-color: rgba(20, 22, 23, 0.955);
+}
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: right;
+    margin-right: 60px;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#apps_img{
+    position: absolute;
+    right: 40px;
+    top: 5px;
+    image-rendering: pixelated;
+    filter: invert();
+}
+#tshirt{
+    aspect-ratio: 1/1;
+    height: 23px;
+    right: 10px;
+    top: 6px;
+    border-radius: 50%;
+    object-fit: contain;
+    position: absolute;
+}
+#google{
+    text-align: center;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 40px;
+}
+#searchbar{
+    background-color: rgb(246, 221, 184);
+    border-radius: 30px;
+    justify-content: center;
+    display: flex;
+    margin: 40px 0px;
+    width: 700px;
+    align-items: center;
+    margin-left: 28%;
+    background-color: rgb(76, 76, 76);
+}
+#searchbar:hover{
+    box-shadow: 1px 1px 10px rgb(93, 93, 91);
+}
+#searchbar input{
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    padding-top: 18px;
+    padding-left: 10px;
+    width: 450px;
+    font-size: 30px;
+    background-color: rgb(76, 76, 76);
+}
+#searchbar button{
+
+    background-color: rgb(76, 76, 76);
+    border-radius: 30px;
+    border: none;
+}
+#searchbar #searchimg{
+    height: 30px;
+    padding: 5px 7px;
+    padding-right: 20px;
+    border-radius: 30px;
+    filter: invert();
+    padding-top: 10px;
+    border: none;
+}
+.buttons{
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+
+}
+.buttons button{
+    padding: 7px 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(53, 53, 53);
+}
+.buttons button:hover{
+    background-color: rgb(70, 70, 70);
+}
+.buttons button a{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+#languages{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+#languages #sub_languages{
+    color: rgb(54, 54, 216);
+    font-weight: 200;
+}
+#india{
+    margin-top: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: rgb(25, 25, 25);
+    padding: 15px 30px;
+}
+#lebels{
+    font-size: 18px;
+    background-color: rgb(25, 25, 25);
+    padding: 10px;
+}
+#lebeling{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(25, 25, 25);
+    gap: 10px;
+}
+#lebeling #llebel {
+    gap: 10px;
+}
+#lebeling #rlebel{
+    right: 10px;
+    gap: 10px;
+    flex-wrap: nowrap;
+    position: absolute;
+}
+#llebel lebel{
+    padding: 10px;
+}
+#rlebel lebel{
+    padding: 10px;
+}
